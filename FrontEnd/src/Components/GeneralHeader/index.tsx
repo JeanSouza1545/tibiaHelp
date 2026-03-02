@@ -6,16 +6,16 @@ import style from './generalheader.module.css'
 
 const GeneralHeader = () => {
     return(
-        <div className={style.generalHeaderContainer}>
+        <header className={style.generalHeaderContainer}>
             <Link to={'/'} className={style.logoContainer}>
                 <img className={style.logoImg} src={logo} alt="Logo TibiaHelp"/>
             </Link>
-            <div className={style.optionContainer}>
+            <nav className={style.optionContainer}>
                 <button className={style.userButton}>
                     <IoLogInOutline size={20} /> Login
                 </button>
-            </div>
-        </div>
+            </nav>
+        </header>
     )
 }
 

@@ -1,3 +1,17 @@
-.home {
-    color: red;
+.mainContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: red; */
 }
+
+.homeTittle {
+    background: linear-gradient(to right, #F59E0B 0%, #F54B00 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    width: fit-content;
+}
+
