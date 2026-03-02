@@ -3,7 +3,7 @@ import style from "./home.module.css"
 const Home = () => {
     return(
         <div>
-            <h1 className={style.home}>BEM VINDO AO TIBIAHELP</h1>
+            <h1 className={style.home}>BEM VINDO AO TIBIAHELP (página)</h1>
         </div>
     )
 }

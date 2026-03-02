@@ -1,0 +1,33 @@
+/* * {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-left: 0;
+    background: radial-gradient(circle at center,
+            80% 80% at 50% 50%, 
+            #2a3a5f 0%,
+            #13151A 100%);
+}
+*/
+
+html,
+body,
+#root {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: radial-gradient(circle at center,
+            #2a3a5f 0%,
+            #13151A 100%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: #fff;
+}
+
+#root {
+    width: 100%;
+}
