@@ -53,6 +53,7 @@
     height: fit-content;
     /* background: red; */
     margin-bottom: 50px;
+    overflow: auto;
 }
 
 .funcionalitiesTitle {
